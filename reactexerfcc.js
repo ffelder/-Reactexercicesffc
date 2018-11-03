@@ -5,7 +5,7 @@
    tempPassword prop within the strong tags to make sure the user 
    sees the temporary password.*/
 
-
+/*
 
 class ReturnTempPassword extends React.Component {
   constructor(props) {
@@ -58,7 +58,7 @@ class ResetPassword extends React.Component {
 A functional(a.k.a. stateless) component is just a plain javascript function which takes props as an argument and returns a react element.
 Use Component.defaultProps to set default props.
 Use Component.propTypes to set props types.
-   */
+   
 
    class CampSite extends React.Component {
   constructor(props) {
@@ -107,7 +107,7 @@ Camper.propTypes = {
     );
   }
 };
-
+*/
 
 //In the code editor, MyComponent is already stateful.
 // Define an h1 tag in the component's render method 

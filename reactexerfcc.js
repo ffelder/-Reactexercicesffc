@@ -15,9 +15,9 @@ class ReturnTempPassword extends React.Component {
   render() {
     return (
         <div>
-            { /* change code below this line */ }
+          
             <p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
-            { /* change code above this line */ }
+             
         </div>
     );
   }
@@ -34,10 +34,10 @@ class ResetPassword extends React.Component {
           <h2>Reset Password</h2>
           <h3>We've generated a new temporary password for you.</h3>
           <h3>Please reset this password from your account settings ASAP.</h3>
-          { /* change code below this line */ }
+          
          <ReturnTempPassword
          tempPassword="xxxxxxxx"/>
-          { /* change code above this line */ }
+         
         </div>
     );
   }
@@ -123,9 +123,9 @@ class MyComponent extends React.Component {
   render() {
     return (
       <div>
-        { /* change code below this line */ }
+       
            <h1>{this.state.name}</h1>
-        { /* change code above this line */ }
+      
       </div>
     );
   }
@@ -153,9 +153,9 @@ class MyComponent extends React.Component {
     // change code above this line
     return (
       <div>
-        { /* change code below this line */ }
+       
          <h1>{name}</h1>
-        { /* change code above this line */ }
+      
       </div>
     );
   }
@@ -230,10 +230,10 @@ Once you complete the above steps you should be able to click the button and see
   render() {
     return (
       <div>
-        { /* change code below this line */ }
+       
         <button onClick={this.addItem}
         >Click Me</button>
-        { /* change code above this line */ }
+       
         <h1>Current Item Count:{this.state.itemCount}</h1>
       </div>
     );
